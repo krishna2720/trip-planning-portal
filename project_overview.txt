@@ -1,0 +1,106 @@
+🧭 PROJECT OVERVIEW – ExploreWorld (Accessible Travel Website)
+👤 Developer:
+
+Krishna Agarwal — B.Tech (CSE), Jaypee Institute of Information Technology
+
+🎯 Project Goal:
+
+To build an accessible, responsive, and user-friendly Travel Booking Website using HTML5 + CSS3,
+that follows semantic web design and ARIA accessibility standards to make it usable for all types of users — including screen readers and visually impaired users.
+
+💎 Unique Highlight — Accessibility (ARIA Integration):
+
+This is the core highlight of the project.
+Unlike normal static sites, this one uses ARIA (Accessible Rich Internet Applications) attributes and semantic roles to improve screen reader compatibility and structure clarity.
+
+🧩 Examples of ARIA & Role usage:
+Element	Role / ARIA Attribute	Purpose
+<header>	role="banner"	Identifies main site header for assistive tech
+<nav>	role="navigation" aria-label="main navigation"	Tells screen readers this is a navigation section
+<section id="home">	role="region" aria-label="home section"	Helps navigate between website regions
+<section id="packages">	role="region" aria-label="packages section"	Defines the travel packages area
+<section id="testimonials">	role="region" aria-label="testimonials section"	Announces user reviews section
+<section id="booking">	role="form" aria-label="booking section"	Marks the main booking form area
+<form>	aria-label="booking-form"	Describes the purpose of the form
+Buttons	aria-label="book europe explorer package"	Makes buttons clear for screen readers
+<iframe>	title="ExploreWorld Office Location"	Gives descriptive title to embedded map
+
+🟢 These ensure that visually impaired users using screen readers (like NVDA or VoiceOver)
+can understand the structure, navigate easily, and interact with content meaningfully.
+
+🧱 Website Structure:
+
+Header (Banner)
+
+Sticky navigation bar
+
+Semantic <header> tag with role="banner"
+
+Clear, labeled nav links
+
+Hero Section (Home)
+
+Full-screen video background
+
+Overlay text and “Explore Packages” button
+
+aria-label describes this region clearly
+
+Packages Section
+
+Travel destinations shown in responsive CSS grid
+
+Each card uses <article> (semantic for self-contained content)
+
+Includes accessible aria-label for each booking button
+
+Testimonials Section
+
+Uses <blockquote> and icons for visual and semantic meaning
+
+Accessible headings for screen readers
+
+Booking Section
+
+Interactive form with aria-label and descriptive for attributes
+
+Inputs have placeholders for user guidance
+
+“Book Now” button with clear action text
+
+Footer
+
+Divided into: Partners, Quick Links, Contact, Map
+
+Map iframe includes title for screen readers
+
+Social icons have proper accessible links
+
+🧩 Technologies Used:
+Type	Technology
+Structure	HTML5 (Semantic Tags + ARIA Roles)
+Styling	CSS3 (Grid, Flexbox, Media Queries)
+Fonts	Google Fonts (Poppins)
+Icons	Font Awesome
+External Links	Goibibo, MakeMyTrip, Google Maps
+🎨 Design & UI Features:
+
+Clean blue–white travel theme
+
+Fully responsive layout (mobile-first grid system)
+
+Hover effects on cards and buttons
+
+Sticky navigation bar
+
+Box shadows & transitions for smooth interactivity
+
+Minimalistic, modern design for readability
+
+♿ Accessibility Highlights (What Makes This Special):
+
+✅ Uses ARIA roles and labels for all major sections
+✅ Every visual section is screen-reader identifiable
+✅ Form elements are properly labeled and keyboard-accessible
+✅ Color contrast maintained for readability
+✅ Semantic HTML5 tags ensure structure & SEO
