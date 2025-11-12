@@ -139,87 +139,104 @@
           <blockquote class="testimonial">
             <i class="fa-solid fa-quote-left fa-2x"></i>
             <p>
-              “ExploreWorld made our honeymoon unforgettable! Everything was
-              perfectly arranged.”
+              “Explore World made my solo Europe trip unforgettable.
+I loved how easy it was to customize my itinerary and find great deals.
+Every hotel and activity exceeded my expectations!”
             </p>
-            <h4>- Vikas Thakur</h4>
+            <h4>- Krishna Agarwal</h4>
           </blockquote>
           <blockquote class="testimonial">
             <i class="fa-solid fa-quote-left fa-2x"></i>
             <p>
-              “ExploreWorld made our honeymoon unforgettable! Everything was
-              perfectly arranged.”
+              “Booking through ExploreWorld was the best decision ever!
+Their customer service was quick, friendly, and always available.
+Thanks to them, our honeymoon in Switzerland was completely hassle-free.”
             </p>
-            <h4>- Vikas Thakur</h4>
+            <h4>- Varun Agarwal</h4>
           </blockquote>
           <blockquote class="testimonial">
             <i class="fa-solid fa-quote-left fa-2x"></i>
             <p>
-              “ExploreWorld made our honeymoon unforgettable! Everything was
-              perfectly arranged.”
+              ““Explore World made our family trip effortless and fun!
+Every detail was perfectly planned — truly a stress-free vacation.”
             </p>
-            <h4>- Vikas Thakur</h4>
+            <h4>- Aryan Priyanshu</h4>
           </blockquote>
         </div>
       </div>
     </section>
 
      <section id="booking" role="form" aria-label="booking section">
-  <div class="container">
+  <div class="booking-container">
     <h2 id="booking-heading">Book Your Travel</h2>
     <p id="booking-desc">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, et!
+      Plan your next adventure with us — easy, fast, and hassle-free!
     </p>
 
-    <form aria-label="booking-form" method="post">
-      <label for="fullname1">Full Name</label>
-      <input
-        type="text"
-        name="fname1"
-        id="fullname1"
-        required
-        placeholder="enter your full name"
-      />
+    <form aria-label="booking-form" method="post" autocomplete="off">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Enter your full name"
+          required
+        />
+      </div>
 
-      <label for="fullname2">Full Name</label>
-      <input
-        type="text"
-        name="fname2"
-        id="fullname2"
-        required
-        placeholder="enter your full name"
-      />
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
 
-      <label for="fullname3">Full Name</label>
-      <input
-        type="text"
-        name="fname3"
-        id="fullname3"
-        required
-        placeholder="enter your full name"
-      />
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+      </div>
 
-      <label for="destination">Destinations</label>
-      <select name="destination" id="destination">
-        <option value="paris">Paris</option>
-        <option value="bali">Bali</option>
-        <option value="newyork">New York</option>
-      </select>
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination">
+          <option value="paris">Paris</option>
+          <option value="bali">Bali</option>
+          <option value="newyork">New York</option>
+          <option value="maldives">Maldives</option>
+        </select>
+      </div>
 
-      <label for="message">Message or Feedback</label>
-      <textarea
-        name="feedback"
-        id="message"
-        placeholder="enter your special requirement"
-      ></textarea>
+      <div class="form-group">
+        <label for="message">Message or Feedback</label>
+        <textarea
+          id="message"
+          name="feedback"
+          placeholder="Enter your special requirements"
+        ></textarea>
+      </div>
 
-      <a href="https://www.goibibo.com/offers/book-at-zero/" target="_blank">
-  <button type="button">Book Now</button>
-</a>
-
+      <button
+        type="button"
+        class="book-btn"
+        onclick="window.open('https://www.goibibo.com/offers/book-at-zero/', '_blank')"
+      >
+        ✈️ Book Now
+      </button>
     </form>
   </div>
 </section>
+
 <footer class="footer">
   <div class="footer-container">
     
