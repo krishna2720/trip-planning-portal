@@ -433,7 +433,7 @@ form button:hover {
 }
 
 .partner-logos img {
-  width: 120px;
+  width: 100px;
   height: auto;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.95;
